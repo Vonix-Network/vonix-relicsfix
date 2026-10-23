@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="vonix_relicsfix"
+version="1.0.1"
+displayName="Vonix Relics Legacy API Shim (temporary)"
+description="""Temporary server-side compatibility shim. Reliquified Ars Nouveau 0.7.1 calls AbilityData.isRankModifierUnlocked(String), a method Relics removed in 0.12.0. This mod merges that single method back onto AbilityData and delegates it to the 0.12.x replacement, AbilityData#getRankModifierData(id)#isUnlocked(). No gameplay values are changed. Remove this jar when Reliquified Ars Nouveau 0.8.0+ is installed."""
+
+[[dependencies.vonix_relicsfix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.vonix_relicsfix]]
+modId="relics"
+type="required"
+versionRange="[0.12.0,1.0.0)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.vonix_relicsfix]]
+modId="reliquified_ars_nouveau"
+type="optional"
+versionRange="[0.7.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="relicsfix.mixins.json"

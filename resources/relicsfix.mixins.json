@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "network.vonix.relicsfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "relicsfix.refmap.json",
+  "mixins": [
+    "AbilityDataLegacyApiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,100 @@
+[22Oct2026 21:25:36.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[22Oct2026 21:25:36.391] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS
+[22Oct2026 21:25:36.394] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Oct2026 21:25:36.858] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Oct2026 21:25:37.010] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Pargon/AppData/Local/hermes/profiles/venix/cache/scratch/relicsfix/localsrv/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[22Oct2026 21:25:37.622] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.228:server]
+[22Oct2026 21:25:37.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.228-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.228\neoforge-21.1.228-universal.jar]], reader: mod manifest]
+[22Oct2026 21:25:37.699] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.11-neoforge.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.732] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ars_nouveau-1.21.1-5.11.3.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.747] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.9.3.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.775] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "OctoLib-NEOFORGE-0.6.2+1.21.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.790] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ran_0.7.1.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.806] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "relics_0.12.0.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:37.820] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "vonix_relicsfix-1.0.1.jar" [locator: {mods folder locator at C:\Users\Pargon\AppData\Local\hermes\profiles\venix\cache\scratch\relicsfix\localsrv\mods}, reader: mod manifest]
+[22Oct2026 21:25:38.097] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[22Oct2026 21:25:38.099] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.228-universal.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.099] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-core-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.100] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "infiniverse-568341-5486311.jar" [parent: ars_nouveau-1.21.1-5.11.3.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.100] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-collections-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.100] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar" [parent: ars_nouveau-1.21.1-5.11.3.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.101] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yumi-commons-event-1.0.0-beta.4.jar" [parent: lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.101] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.228.jar" [parent: neoforge-21.1.228-universal.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.101] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nuggets-neoforge-1.21.1-1.1.0.48.jar" [parent: ars_nouveau-1.21.1-5.11.3.jar, locator: jarinjar, reader: mod manifest]
+[22Oct2026 21:25:38.101] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.2.jar" [parent: OctoLib-NEOFORGE-0.6.2+1.21.jar, locator: jarinjar]
+[22Oct2026 21:25:38.103] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.11 (architectury)
+		Ars Nouveau 5.11.3 (ars_nouveau)
+		Curios API 9.5.1+1.21.1 (curios)
+		GeckoLib 4 4.9.3 (geckolib)
+		Infiniverse 2.0.1.0 (infiniverse)
+		LambDynamicLights (API) 4.5.1+1.21.1 (lambdynlights_api)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.228 (neoforge)
+		Nuggets 1.1.0.48 (nuggets)
+		OctoLib 0.6.2 (octolib)
+		Relics 0.12.0 (relics)
+		Reliquified Ars Nouveau 0.7.1 (reliquified_ars_nouveau)
+		Vonix Relics Legacy API Shim (temporary) 1.0.1 (vonix_relicsfix)
+[22Oct2026 21:25:39.134] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[22Oct2026 21:25:39.190] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Oct2026 21:25:39.370] [main/WARN] [mixin/]: Reference map 'relics.refmap.json' for relics.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.372] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.391] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.392] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.393] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.644] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.647] [main/WARN] [mixin/]: Reference map 'reliquified_ars_nouveau.refmap.json' for reliquified_ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 21:25:39.950] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[22Oct2026 21:25:39.971] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[22Oct2026 21:25:39.972] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics
+[22Oct2026 21:25:39.976] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackItem (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackItem)
+[22Oct2026 21:25:39.976] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackItem was not found relics.mixins.json:compat.sophisticatedbackpacks.BackpackItemMixin from mod relics
+[22Oct2026 21:25:40.277] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[22Oct2026 21:25:42.695] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[22Oct2026 21:25:51.147] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[22Oct2026 21:25:53.828] [modloading-worker-0/INFO] [vonix_relicsfix/]: [vonix_relicsfix] SELF-TEST AbilityData.isRankModifierUnlocked(Ljava/lang/String;)Z = PRESENT (public+boolean=true)
+[22Oct2026 21:25:53.830] [modloading-worker-0/INFO] [vonix_relicsfix/]: [vonix_relicsfix] SELF-TEST replacement AbilityData.getRankModifierData(String) present, returns it.hurts.sskirillss.relics.api.relics.data.AbilityRankModifierData
+[22Oct2026 21:25:54.121] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22Oct2026 21:25:54.243] [main/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+vonix_relicsfix (version 1.0.0 -> 1.0.1)
+Things may not work well.
+[22Oct2026 21:25:54.259] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Pargon/AppData/Local/hermes/profiles/venix/cache/scratch/relicsfix/localsrv/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2026 21:25:54.260] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Pargon/AppData/Local/hermes/profiles/venix/cache/scratch/relicsfix/localsrv/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[22Oct2026 21:25:56.021] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag werewolves:werewolf_food as it is missing following references: 
+	relics:infinity_ham (from mod/relics)
+[22Oct2026 21:25:56.325] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1998 recipes
+[22Oct2026 21:25:56.602] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1742 advancements
+[22Oct2026 21:25:56.614] [main/INFO] [Curios API/]: Loaded 12 curio slots
+[22Oct2026 21:25:56.621] [main/INFO] [Curios API/]: Loaded 1 curio entities
+[22Oct2026 21:25:57.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[22Oct2026 21:25:57.417] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Oct2026 21:25:57.417] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Oct2026 21:25:57.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2026 21:25:57.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Oct2026 21:25:57.783] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[22Oct2026 21:25:58.072] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Oct2026 21:25:58.073] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Oct2026 21:25:58.073] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Oct2026 21:25:58.074] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Oct2026 21:25:58.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Oct2026 21:25:58.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2026 21:25:59.146] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Oct2026 21:25:59.242] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 397 ms
+[22Oct2026 21:25:59.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.149s)! For help, type "help"
+[22Oct2026 21:25:59.308] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22Oct2026 21:27:10.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Oct2026 21:27:10.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2026 21:27:11.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2026 21:27:11.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2026 21:27:11.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Oct2026 21:27:11.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Oct2026 21:27:11.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Oct2026 21:27:11.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Oct2026 21:27:11.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2026 21:27:11.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2026 21:27:11.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
